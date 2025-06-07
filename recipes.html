@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Recipes - Coffee & Cookies Shop</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="recipe-styles.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <header>
+      <nav class="navbars">
+        <a href="#" class="nav-logo"><h2>Coffee shop</h2></a>
+        <ul class="nav-items">
+          <li class="items">
+            <a href="index.html" class="nav-links">Home</a>
+          </li>
+          <li class="items">
+            <a href="products.html" class="nav-links">Products</a>
+          </li>
+          <li class="items">
+            <a href="about.html" class="nav-links">About</a>
+          </li>
+          <li class="items">
+            <a href="recipes.html" class="nav-links">Recipes</a>
+          </li>
+          <li class="items">
+            <a href="#" class="nav-links">Sign_up</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="recipe-hero">
+      <div class="container">
+        <h1 data-aos="fade-up">Coffee Recipes</h1>
+        <p data-aos="fade-up" data-aos-delay="200">
+          Master the art of coffee making with our detailed recipes and video
+          guides
+        </p>
+      </div>
+    </div>
+
+    <!-- Recipe Cards -->
+    <div class="container">
+      <div class="recipe-grid">
+        <div class="recipe-card" data-aos="fade-up">
+          <img
+            src="https://images.unsplash.com/photo-1534778101976-62847782c213"
+            alt="Cappuccino"
+            class="recipe-image"
+          />
+          <div class="recipe-content">
+            <h2 class="recipe-title">Perfect Cappuccino</h2>
+            <div class="recipe-info">
+              <span><i class="far fa-clock"></i> 10 mins to prepare </span>
+              <span><i class="fas fa-coffee"></i> Intermediate</span>
+              <span><i class="fas fa-star"></i> 4.9/5</span>
+            </div>
+          </div>
+        </div>
+        <div class="recipe-card" data-aos="fade-up" data-aos-delay="200">
+          <img
+            src="https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5"
+            alt="Latte Art"
+            class="recipe-image"
+          />
+          <div class="recipe-content">
+            <h2 class="recipe-title">Latte Art Basics</h2>
+            <div class="recipe-info">
+              <span><i class="far fa-clock"></i> 15 mins to prepare</span>
+              <span><i class="fas fa-coffee"></i> Advanced</span>
+              <span><i class="fas fa-star"></i> 4.7/5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Recipe Details -->
+      <div class="recipe-details" data-aos="fade-up">
+        <div class="ingredients-list">
+          <h2>Perfect Cappuccino Recipe</h2>
+          <ul>
+            <li><i class="fas fa-check"></i> 18g finely ground espresso</li>
+            <li><i class="fas fa-check"></i> Fresh whole milk</li>
+            <li><i class="fas fa-check"></i> Espresso machine</li>
+            <li><i class="fas fa-check"></i> Milk pitcher</li>
+            <li><i class="fas fa-check"></i> Coffee scale</li>
+            <li><i class="fas fa-check"></i> Timer</li>
+          </ul>
+        </div>
+        <div class="instructions">
+          <h2>Instructions</h2>
+          <ol>
+            <li>
+              Heat your espresso machine and cup. Proper temperature is crucial
+              for the perfect shot.
+            </li>
+            <li>
+              Grind 18g of coffee beans to a fine consistency. The grind should
+              be slightly finer than table salt.
+            </li>
+            <li>
+              Tamp the ground coffee evenly with about 30 pounds of pressure.
+              Ensure the surface is level.
+            </li>
+            <li>
+              Pull your espresso shot. Aim for a 25-30 second extraction time
+              for 36g of espresso.
+            </li>
+            <li>
+              While the shot is pulling, pour cold milk into your pitcher,
+              filling it about 1/3 full.
+            </li>
+            <li>
+              Steam your milk to create microfoam. The final temperature should
+              be around 65°C (150°F).
+            </li>
+            <li>
+              Tap the pitcher to remove any large bubbles and swirl to
+              incorporate the foam.
+            </li>
+            <li>
+              Pour the steamed milk into your espresso, starting from a height
+              of about 3 inches.
+            </li>
+            <li>
+              As the cup fills, bring the pitcher closer to create latte art if
+              desired.
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <!-- Video Section -->
+      <div class="video-section">
+        <h2>Video Guides</h2>
+        <div class="video-grid">
+          <div class="video-container" data-aos="fade-right">
+            <video
+              src="./videos/How To Make the Perfect Cappuccino .mp4"
+              controls
+              title="how to make the perfect cappuccino"
+            ></video>
+          </div>
+          <div class="video-container" data-aos="fade-left">
+            <video
+              src="./videos/cappuccino_2.mp4"
+              controls
+              title="cappuccino"
+            ></video>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tips Section -->
+      <div class="tips-section">
+        <div class="container">
+          <h2>Pro Tips</h2>
+          <div class="tips-grid">
+            <div class="tip-card" data-aos="fade-up">
+              <i class="fas fa-temperature-high"></i>
+              <h3>Temperature Control</h3>
+              <p>
+                Keep your espresso machine at the right temperature (92-96°C)
+                for optimal extraction.
+              </p>
+            </div>
+            <div class="tip-card" data-aos="fade-up" data-aos-delay="100">
+              <i class="fas fa-tint"></i>
+              <h3>Milk Texture</h3>
+              <p>
+                Create silky microfoam by keeping the steam wand just below the
+                milk surface.
+              </p>
+            </div>
+            <div class="tip-card" data-aos="fade-up" data-aos-delay="200">
+              <i class="fas fa-clock"></i>
+              <h3>Timing</h3>
+              <p>
+                Aim for a 25-30 second extraction time for the perfect espresso
+                shot.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Share Section -->
+      <div class="share-section">
+        <h2>Share This Recipe</h2>
+        <div class="share-buttons">
+          <a
+            href="https://facebook.com/share"
+            target="_blank"
+            class="share-button facebook"
+          >
+            <i class="fab fa-facebook-f"></i>
+            Share on Facebook
+          </a>
+          <a
+            href="https://twitter.com/@Abdibasid141226"
+            class="share-button twitter"
+          >
+            <i class="fab fa-twitter"></i>
+            Share on Twitter
+          </a>
+          <a
+            href="https://instagram.com/abdibasid_moh_aden"
+            target="_blank"
+            class="share-button instagram"
+          >
+            <i class="fab fa-instagram"></i>
+            share on instagram
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      // Initialize AOS animation library
+      AOS.init({
+        duration: 800,
+        once: true,
+      });
+
+      // Smooth Scroll
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth",
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
