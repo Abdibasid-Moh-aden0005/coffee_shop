@@ -3,19 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:wght@100;300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
-    />
+    <title>Sign_UP</title>
+    <link rel="stylesheet" href="./sign_up.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
-
-    <title>Coffee shop</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:wght@100;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -42,27 +39,18 @@
     </header>
     <main>
       <div class="parent">
-        <div class="discribtion">
-          <h2 class="title">Coffee shop</h2>
-          <p>
-            Welcome to a place where you can join a happiness , prosperity
-            community.Whether you're catching up with friends, reading a good
-            book, or getting work done — Brew Haven is more than coffee. It's
-            comfort, community, and connection.
-          </p>
-          <h2 class="title">24hrs</h2>
-          <div class="button">
-            <a href="#"><button>Order Now</button></a>
-            <a href="about.html#contact"><button>Contact_us</button></a>
-          </div>
-        </div>
-        <div class="cover">
-          <img
-            src="./images-1/coffee-hero-section.png"
-            alt="Coffee cup"
-            class="coffee-cover"
-          />
-        </div>
+        <form class="form_holder">
+          <label for="username">Username :</label>
+          <input type="text" id="username" placeholder="Username" required />
+
+          <label for="password">Password :</label>
+          <input type="password" id="password" placeholder="Password" />
+
+          <label for="email">Email :</label>
+          <input type="email" id="email" placeholder="Email" required />
+
+          <input type="submit" class="submit" />
+        </form>
       </div>
     </main>
     <footer class="footer">
@@ -108,6 +96,5 @@
         </p>
       </div>
     </footer>
-    <script></script>
   </body>
 </html>
